@@ -193,14 +193,11 @@ def main():
             info("epoch {:04d} valid loss {:.6f} accuracy {:.6f} f1_score {:.6f}".format(epoch, valid_loss, valid_acc, valid_f1))
             torch.save(model.state_dict(), os.path.join(model_save_path, f'set_tf_epoch{epoch}_{valid_loss}.model_dict'))
 
-
-    # 绘制loss变化曲线
     plt.plot(range(1, args.epochs + 1), losses)
     plt.xlabel('Epoch')
     plt.ylabel('Loss')
     plt.title('Training Loss over Epochs')
 
-    # 创建保存图片的目录（如果不存在）
     save_dir = f'{base_path}/history/{fe.task_name}/set_tf/'
     os.makedirs(save_dir, exist_ok=True)
 
