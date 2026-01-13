@@ -210,11 +210,6 @@ def main():
 
 
 if __name__ == '__main__':
-    task_name_list = ['activity',
-                      'mice_protein',
-                      'coil-20', 'minist', 'minist_fashion']
+    main()
 
-    for task_name in task_name_list:
-        args.task_name = task_name
-        main()
 
