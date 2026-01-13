@@ -6,7 +6,7 @@ This is the release code for :
 ]([https://arxiv.org/abs/2212.13402](https://arxiv.org/abs/2505.11601)) \(CAPS\)
 which is accepted by KDD 2025!
 
-![image][framework_2_bot.pdf](https://github.com/user-attachments/files/24596286/framework_2_bot.pdf)
+![image](https://github.com/user-attachments/files/24596286/framework_2_bot.pdf)
 ()
 
 
